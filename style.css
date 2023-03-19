@@ -1,0 +1,82 @@
+body {
+   
+    font-family: Sukar;
+    background-color:rgb(5, 129, 148);
+  }
+  li{
+    margin: auto;
+    font-size: 20px;
+    color: rgb(5, 129, 148);;
+  }
+  h1{
+    text-align: center;
+    padding-top: 30px;
+    color:rgb(245, 142, 103);
+  }
+  p{
+    font-size: 20px;
+    color: rgb(188, 190, 192);
+    text-align: justify;
+  }
+ 
+
+  .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: white;
+    width: 15em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.nav-link.nav-link:hover{
+  color:rgb(245, 142, 103);
+ }
+.container a{
+  color:rgb(245, 142, 103);
+  font-size: 2em;
+  padding-right:50px ;
+ }
+ /*card media*/
+ h5{
+  text-align: center;
+ }
+/*footer*/
+footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-content {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-content {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-content {
+    width: 100%;
+  }
+}
+
+
